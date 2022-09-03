@@ -42,4 +42,8 @@ The purpose of this analysis is to compare different algorithm's evaluations of 
 
 ## Summary
 
-All models have the potential for false positives in the high risk category.  This is not necessarily a bad feature, since those could have further evaluation to determine their status.  Most models evaluated the low risk group adequately and would correctly pass those candidates on with an approved status.  Based on the overall scores and taking accuracy into account, it appears the best model to choose for this analysis is the EasyEnsembleClassifier Algorithm.  It will be accurate a projected 93% of the time and is highly sensitive.  It also has a high F1 score meaning that the weighted average of the true positive rate (recall) and precision were good.
+All models have the potential for false positives in the high risk category.  This is not necessarily a bad feature, since those could undergo further evaluation to determine their final status.  Most models evaluated the low risk group adequately and would correctly pass those candidates on with an approved status.  Based on the overall scores and taking accuracy into account, it appears the best model to choose for this analysis is the EasyEnsembleClassifier Algorithm.  It will be accurate a projected 93% of the time and is highly sensitive.  It also has a high F1 score meaning that the weighted average of the true positive rate (recall) and precision were good.
+
+#### Resources
+
+A dataset was supplied for the analysis. (LoanStats_2019Q1.csv)
